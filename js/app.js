@@ -120,7 +120,7 @@ function convertGoogleDriveLink(url) {
   
   if (fileId) {
     console.log('📸 Loading gambar dengan ID:', fileId);
-    return `https://drive.google.com/uc?export=view&id=${fileId}`;
+    return `https://lh3.googleusercontent.com/uc?export=view&id=${fileId}`;
   }
   
   console.warn('⚠️ URL tidak valid:', url);
